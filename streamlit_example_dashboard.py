@@ -8,7 +8,7 @@ from streamlit_dynamic_filters import DynamicFilters
 headers = pd.read_csv(
     os.path.join(
         os.path.dirname('__file__'), 
-        "../Data/The Black Response Cambridge - Community Education Workshop Evaluation 2024 - Sheet1.csv"
+        "./Data/The Black Response Cambridge - Community Education Workshop Evaluation 2024 - Sheet1.csv"
         ),
         nrows=1       
 )
@@ -16,7 +16,7 @@ headers = pd.read_csv(
 df = pd.read_csv(
     os.path.join(
         os.path.dirname('__file__'), 
-        "../Data/The Black Response Cambridge - Community Education Workshop Evaluation 2024 - Sheet1.csv"
+        "./Data/The Black Response Cambridge - Community Education Workshop Evaluation 2024 - Sheet1.csv"
         ),
     skiprows=1       
 )
